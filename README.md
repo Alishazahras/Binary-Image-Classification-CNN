@@ -6,7 +6,9 @@ This project is aimed at solving a binary image classification problem using a C
    - Resize all images to a resolution of 64 x 64.
    - Apply data augmentation techniques such as rotation, flipping, or zooming to increase the variety of the training dataset and improve model generalization.
 2. **Baseline CNN Architecture:**
+   
 ![Architecture](https://github.com/user-attachments/assets/6df38666-7413-457c-a65b-702b21737f38)
+
    - Implement the baseline CNN architecture as outlined in Figure 1, using the following specifications:
       - Use ReLU as the activation function for each hidden layer.
       - Use Softmax as the activation function in the output layer for binary classification.
@@ -49,7 +51,7 @@ The dataset contains labeled images for binary classification. Each image belong
     - Use the modified model to evaluate its performance on the test dataset.
     - Generate predictions and compare them with the ground truth.
     - Use evaluation metrics such as accuracy, precision, recall, and F1-score to assess the model's classification performance.
-6. **Video Explanation:**
+5. **Video Explanation:**
     - Record a video walkthrough explaining the entire process, including the architecture design, training, evaluation, and results.
     - Share your insights on the model’s performance and any key takeaways.
       
